@@ -1,0 +1,14 @@
+<svg width="9" height="7" viewBox="0 0 9 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Arrow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4149 -2894)">
+<g id="Arrow">
+<g id="Arrow">
+<use xlink:href="#path0_fill" transform="translate(4149 2894)" fill="#828282"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 4.5 0L 8.39711 5.25L 0.602886 5.25L 4.5 0Z"/>
+</defs>
+</svg>

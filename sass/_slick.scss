@@ -1,0 +1,206 @@
+/* Slider */
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    &:focus {
+        outline: none;
+    }
+
+    &.dragging {
+        cursor: pointer;
+        cursor: hand;
+    }
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    .slick-loading & {
+        visibility: hidden;
+    }
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    outline: none !important;
+    a {
+        outline: none;
+    }
+    [dir="rtl"] & {
+        float: right;
+    }
+    img {
+        display: block;
+    }
+    &.slick-loading img {
+        display: none;
+    } // display: none;
+    &.dragging img {
+        pointer-events: none;
+    }
+
+    .slick-initialized & {
+        display: block;
+    }
+
+    .slick-loading & {
+        visibility: hidden;
+    }
+
+    .slick-vertical & {
+        display: block;
+        height: auto;
+        border: 1px solid transparent;
+    }
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 5px; // right: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block;
+        margin: 0 0 0 5px;
+        padding: 0;
+        line-height: 0;
+        button {
+            display: block;
+            height: 10px;
+            width: 10px;
+            background: #C4C4C4;
+            outline: none !important;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 0;
+            text-indent: -900px;
+            overflow: hidden;
+            box-shadow: none;
+            border: none;
+        }
+        &.slick-active {
+            button {
+                background: #007CB1;
+            }
+        }
+    }
+}
+
+.slick-arrow {
+    text-indent: 0;
+    font-size: 30px;
+    top: 50%;
+    position: absolute;
+    z-index: 9;
+    color: #E0E0E0;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+    cursor: pointer;
+    &:hover {
+        color: #007CB1;
+    }
+    i {
+        display: inline-block;
+    }
+    &.slick-prev {
+        left: 0;
+        i {
+            transform: rotate(-90deg);
+        }
+    }
+    &.slick-next {
+        right: 0;
+        i {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+// .slick-arrow {
+//     display: inline-block;
+//     height: 36px;
+//     width: 36px;
+//     border-radius: 50%;
+//     overflow: hidden;
+//     text-indent: -900px;
+//     padding: 0;
+//     background: #fff;
+//     border: none;
+//     outline: none;
+//     box-shadow: none;
+//     position: relative;
+//     .white-arrows & {
+//         background: #e3e3e3;
+//     }
+//     &.slick-disabled {
+//         opacity: .7;
+//         cursor: default;
+//     }
+//     &:after {
+//         // content: '';
+//         display: block;
+//         position: absolute;
+//         left: 50%;
+//         top: 50%;
+//         height: 14px;
+//         width: 8px;
+//         margin-top: -7px;
+//         margin-left: -4px;
+//     }
+//     &.slick-prev {}
+//     &.slick-next {}
+// }

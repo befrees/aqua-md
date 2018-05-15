@@ -1,0 +1,24 @@
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Arrow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3211 -1197)">
+<g id="Arrow">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(3220 1211)" fill="#54C029"/>
+</g>
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3211 1197)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3211 1197)" fill="#54C029"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 7.97143 9.17143C 8.14286 9.34286 8.35714 9.42857 8.57143 9.42857C 8.78572 9.42857 9 9.34286 9.17143 9.17143L 16.8857 1.45714C 17.2286 1.11429 17.2286 0.599999 16.8857 0.257142C 16.5429 -0.0857149 16.0286 -0.0857149 15.6857 0.257142L 8.57143 7.37143L 1.45714 0.257142C 1.11429 -0.0857149 0.6 -0.0857149 0.257143 0.257142C -0.0857141 0.599999 -0.0857141 1.11429 0.257143 1.45714L 7.97143 9.17143Z"/>
+<path id="path1_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 31 0C 33.7614 0 36 2.23858 36 5L 36 31C 36 33.7614 33.7614 36 31 36L 5 36C 2.23858 36 0 33.7614 0 31L 0 5Z"/>
+<path id="path2_stroke_2x" d="M 5 1L 31 1L 31 -1L 5 -1L 5 1ZM 35 5L 35 31L 37 31L 37 5L 35 5ZM 31 35L 5 35L 5 37L 31 37L 31 35ZM 1 31L 1 5L -1 5L -1 31L 1 31ZM 5 35C 2.79086 35 1 33.2091 1 31L -1 31C -1 34.3137 1.68629 37 5 37L 5 35ZM 35 31C 35 33.2091 33.2091 35 31 35L 31 37C 34.3137 37 37 34.3137 37 31L 35 31ZM 31 1C 33.2091 1 35 2.79086 35 5L 37 5C 37 1.68629 34.3137 -1 31 -1L 31 1ZM 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5C 1 2.79086 2.79086 1 5 1L 5 -1Z"/>
+</defs>
+</svg>

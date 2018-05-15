@@ -1,0 +1,26 @@
+<svg width="24" height="23" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Message</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3192 -1307)">
+<g id="Message">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(3192 1307.23)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3196.93 1314.73)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(3202.35 1314.73)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(3207.77 1314.73)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 18.5689L 7.926 18.5689L 12 22.2584L 16.059 18.5689L 24 18.5689L 24 -1.27735e-07L 0 -1.27735e-07L 0 18.5689ZM 2.4 2.43527L 21.6 2.43527L 21.6 16.1337L 15.141 16.1337L 12 18.9921L 8.85 16.1337L 2.4 16.1337L 2.4 2.43527Z"/>
+<path id="path1_fill" d="M 1.95 3.95731C 3.02695 3.95731 3.9 3.07144 3.9 1.97866C 3.9 0.885876 3.02695 0 1.95 0C 0.873044 0 0 0.885876 0 1.97866C 0 3.07144 0.873044 3.95731 1.95 3.95731Z"/>
+<path id="path2_fill" d="M 1.95 3.95731C 3.02696 3.95731 3.9 3.07144 3.9 1.97866C 3.9 0.885876 3.02696 0 1.95 0C 0.873045 0 0 0.885876 0 1.97866C 0 3.07144 0.873045 3.95731 1.95 3.95731Z"/>
+<path id="path3_fill" d="M 1.95 3.95731C 3.02695 3.95731 3.9 3.07144 3.9 1.97866C 3.9 0.885876 3.02695 0 1.95 0C 0.873044 0 0 0.885876 0 1.97866C 0 3.07144 0.873044 3.95731 1.95 3.95731Z"/>
+</defs>
+</svg>

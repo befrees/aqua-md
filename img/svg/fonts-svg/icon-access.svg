@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.94" height="24" viewBox="0 0 31.94 24">
+  <title>icon-access</title>
+  <g id="e4c5f711-a1fe-48dd-9aa0-d4dca7d04b89" data-name="Слой 2">
+    <g id="759dc8a7-961d-4171-8ba8-b4381ba7d923" data-name="Слой 1">
+      <g id="f847923e-7aff-48a4-a576-13b9724ca790" data-name="Canvas">
+        <g id="30620c63-7ed5-44de-a3c3-da4c1068236b" data-name="icon">
+          <g id="18e44d4d-e395-448f-bcb7-1d75d84df0db" data-name="Vector">
+            <path d="M29.75,24H2.19A2.18,2.18,0,0,1,0,21.84V2.16A2.18,2.18,0,0,1,2.19,0H29.75a2.18,2.18,0,0,1,2.19,2.16V21.84A2.18,2.18,0,0,1,29.75,24ZM2.19,1.62a.54.54,0,0,0-.55.54V21.84a.54.54,0,0,0,.55.54H29.75a.54.54,0,0,0,.55-.54V2.16a.54.54,0,0,0-.55-.54Z"/>
+          </g>
+          <g id="30c4e9b5-caa8-4a83-9f9e-e19dded030b9" data-name="Ellipse">
+            <circle cx="8.38" cy="12.37" r="1.38"/>
+          </g>
+          <g id="939f6018-955a-4995-beef-e01c9a5d829e" data-name="Ellipse 2">
+            <circle cx="15.38" cy="12.37" r="1.38"/>
+          </g>
+          <g id="05b3d708-de61-4f49-91c0-be5809d671a3" data-name="Ellipse 3">
+            <circle cx="22.38" cy="12.37" r="1.38"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

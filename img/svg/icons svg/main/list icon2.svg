@@ -1,0 +1,43 @@
+<svg width="35" height="39" viewBox="0 0 35 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>list icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5417 -2307)">
+<g id="list icon">
+<g id="Rectangle 3.4">
+<use xlink:href="#path0_fill" transform="translate(5417 2307.92)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(5417 2307.92)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5417 2307.92)" fill="#CFDAE1"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(5425 2317.46)" fill="#BDBDBD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(5425 2324.88)" fill="#BDBDBD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(5425 2332.3)" fill="#BDBDBD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(5431 2317.46)" fill="#BDBDBD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(5431 2324.88)" fill="#BDBDBD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(5431 2332.3)" fill="#BDBDBD"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 30 0C 32.7614 0 35 2.23858 35 5L 35 32.0973C 35 34.8587 32.7614 37.0973 30 37.0973L 5 37.0973C 2.23858 37.0973 0 34.8587 0 32.0973L 0 5Z"/>
+<path id="path1_stroke_2x" d="M 5 1L 30 1L 30 -1L 5 -1L 5 1ZM 34 5L 34 32.0973L 36 32.0973L 36 5L 34 5ZM 30 36.0973L 5 36.0973L 5 38.0973L 30 38.0973L 30 36.0973ZM 1 32.0973L 1 5L -1 5L -1 32.0973L 1 32.0973ZM 5 36.0973C 2.79086 36.0973 1 34.3064 1 32.0973L -1 32.0973C -1 35.411 1.68629 38.0973 5 38.0973L 5 36.0973ZM 34 32.0973C 34 34.3064 32.2091 36.0973 30 36.0973L 30 38.0973C 33.3137 38.0973 36 35.411 36 32.0973L 34 32.0973ZM 30 1C 32.2091 1 34 2.79086 34 5L 36 5C 36 1.68629 33.3137 -1 30 -1L 30 1ZM 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5C 1 2.79086 2.79086 1 5 1L 5 -1Z"/>
+<path id="path2_fill" d="M 4 0L 0 0L 0 4.23969L 4 4.23969L 4 0Z"/>
+<path id="path3_fill" d="M 4 0L 0 0L 0 4.23969L 4 4.23969L 4 0Z"/>
+<path id="path4_fill" d="M 13 0L 0 0L 0 4.23969L 13 4.23969L 13 0Z"/>
+<path id="path5_fill" d="M 13 0L 0 0L 0 4.23969L 13 4.23969L 13 0Z"/>
+</defs>
+</svg>

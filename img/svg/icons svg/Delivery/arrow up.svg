@@ -1,0 +1,14 @@
+<svg width="11" height="6" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow up</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-20004 -1204)">
+<g id="arrow up">
+<g id="arrow up">
+<use xlink:href="#path0_fill" transform="matrix(-1 -1.2159e-16 -1.23352e-16 1 20015 1204)" fill="#A9AAAB"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 9.78871 6L 11 4.91456L 5.50234 -7.38825e-09L 8.51912e-08 4.91456L 1.21129 6L 5.50234 2.15478L 9.78871 6Z"/>
+</defs>
+</svg>

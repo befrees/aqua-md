@@ -1,0 +1,24 @@
+<svg width="40" height="44" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Facebook</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2932 -1404)">
+<g id="Facebook">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(2932 1404.76)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(2932 1404.76)" fill="#333333"/>
+</g>
+</g>
+<g id="icon">
+<use xlink:href="#path2_fill" transform="translate(2946 1413.24)" fill="#333333"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 35 0C 37.7614 0 40 2.23858 40 5L 40 37.3969C 40 40.1583 37.7614 42.3969 35 42.3969L 5 42.3969C 2.23858 42.3969 0 40.1583 0 37.3969L 0 5Z"/>
+<path id="path1_stroke_2x" d="M 5 1L 35 1L 35 -1L 5 -1L 5 1ZM 39 5L 39 37.3969L 41 37.3969L 41 5L 39 5ZM 35 41.3969L 5 41.3969L 5 43.3969L 35 43.3969L 35 41.3969ZM 1 37.3969L 1 5L -1 5L -1 37.3969L 1 37.3969ZM 5 41.3969C 2.79086 41.3969 1 39.606 1 37.3969L -1 37.3969C -1 40.7106 1.68629 43.3969 5 43.3969L 5 41.3969ZM 39 37.3969C 39 39.606 37.2091 41.3969 35 41.3969L 35 43.3969C 38.3137 43.3969 41 40.7106 41 37.3969L 39 37.3969ZM 35 1C 37.2091 1 39 2.79086 39 5L 41 5C 41 1.68629 38.3137 -1 35 -1L 35 1ZM 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5C 1 2.79086 2.79086 1 5 1L 5 -1Z"/>
+<path id="path2_fill" d="M 7.78967 24.3782L 7.78967 13.259L 11.3263 13.259L 11.8569 8.92433L 7.78967 8.92433L 7.78967 6.15729C 7.78967 4.9027 8.11857 4.04772 9.82594 4.04772L 12 4.04677L 12 0.169709C 11.624 0.118168 10.3334 0 8.83134 0C 5.69471 0 3.54731 2.01969 3.54731 5.72799L 3.54731 8.92433L 1.36376e-07 8.92433L 1.36376e-07 13.259L 3.54731 13.259L 3.54731 24.3782L 7.78967 24.3782Z"/>
+</defs>
+</svg>

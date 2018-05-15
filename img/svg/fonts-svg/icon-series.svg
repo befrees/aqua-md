@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.94" height="24" viewBox="0 0 31.94 24">
+  <title>icon-series</title>
+  <g id="7446a796-ecd8-4647-933b-7664b9f920e5" data-name="Слой 2">
+    <g id="b346d488-9f5a-4c04-aef2-5ad31a93ea6e" data-name="Слой 1">
+      <g id="abb6bca9-05ac-4a90-beef-b97c970c65e4" data-name="Canvas">
+        <g id="9d3a8fee-9593-442d-91cb-d26974f79d2d" data-name="icon">
+          <g id="32b4617d-8e6f-472e-a8df-c702e3c2a0e9" data-name="Vector">
+            <path d="M29.75,24H2.19A2.18,2.18,0,0,1,0,21.84V2.16A2.18,2.18,0,0,1,2.19,0H29.75a2.18,2.18,0,0,1,2.19,2.16V21.84A2.18,2.18,0,0,1,29.75,24ZM2.19,1.62a.54.54,0,0,0-.55.54V21.84a.54.54,0,0,0,.55.54H29.75a.54.54,0,0,0,.55-.54V2.16a.54.54,0,0,0-.55-.54Z"/>
+          </g>
+          <g id="9584ddae-ebea-492c-a6a5-8624aee0801d" data-name="Rectangle">
+            <rect x="6" y="6" width="20" height="2"/>
+          </g>
+          <g id="4bac80ad-fc8a-4666-b51b-2f9da63630f2" data-name="Rectangle 2">
+            <rect x="6" y="11" width="20" height="2"/>
+          </g>
+          <g id="80339716-226b-46b8-a29f-5618d63bdbaf" data-name="Rectangle 3">
+            <rect x="6" y="16" width="20" height="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

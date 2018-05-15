@@ -1,0 +1,263 @@
+.ic {
+    font-size: 10px;
+}
+
+.ic:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url(".././img/svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 14.2em 155.3em;
+}
+
+.no-svg .ic:before {
+    background-image: url(".././img/svg/sprite.png");
+}
+
+
+
+  .ic.arrow_link:before {
+      background-position: 0em 0em;
+      width: 6.18em;
+      height: 4.1899999999999995em;
+  }
+
+
+
+
+  .ic.basket:before {
+      background-position: 0em -4.2em;
+      width: 10em;
+      height: 10.32em;
+  }
+
+
+
+
+  .ic.facebook:before {
+      background-position: 0em -14.6em;
+      width: 2em;
+      height: 2em;
+  }
+
+
+
+
+  .ic.facebook_login:before {
+      background-position: 0em -16.6em;
+      width: 5.7em;
+      height: 5.8em;
+  }
+
+
+
+
+  .ic.facebook_login_hover:before {
+      background-position: 0em -22.4em;
+      width: 5.7em;
+      height: 5.8em;
+  }
+
+
+
+
+  .ic.gift:before {
+      background-position: 0em -28.2em;
+      width: 4.83em;
+      height: 4.87em;
+  }
+
+
+
+
+  .ic.google+:before {
+      background-position: 0em -33.1em;
+      width: 2em;
+      height: 2em;
+  }
+
+
+
+
+  .ic.google+_login:before {
+      background-position: 0em -35.1em;
+      width: 5.7em;
+      height: 5.8em;
+  }
+
+
+
+
+  .ic.google+_login_hover:before {
+      background-position: 0em -40.9em;
+      width: 5.7em;
+      height: 5.8em;
+  }
+
+
+
+
+  .ic.instagram:before {
+      background-position: 0em -46.7em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .ic.linkedin:before {
+      background-position: 0em -48.5em;
+      width: 2em;
+      height: 2em;
+  }
+
+
+
+
+  .ic.logo:before {
+      background-position: 0em -50.5em;
+      width: 14.2em;
+      height: 10.190000000000001em;
+  }
+
+
+
+
+  .ic.phone:before {
+      background-position: 0em -60.7em;
+      width: 6.43em;
+      height: 6.4em;
+  }
+
+
+
+
+  .ic.scale:before {
+      background-position: 0em -67.1em;
+      width: 10em;
+      height: 7.82em;
+  }
+
+
+
+
+  .ic.search:before {
+      background-position: 0em -75em;
+      width: 5.17em;
+      height: 5.07em;
+  }
+
+
+
+
+  .ic.tab1:before {
+      background-position: 0em -80.1em;
+      width: 9em;
+      height: 8.4em;
+  }
+
+
+
+
+  .ic.tab2:before {
+      background-position: 0em -88.5em;
+      width: 10em;
+      height: 9.7em;
+  }
+
+
+
+
+  .ic.tab3:before {
+      background-position: 0em -98.2em;
+      width: 4.05em;
+      height: 4.1em;
+  }
+
+
+
+
+  .ic.tab4:before {
+      background-position: 0em -102.3em;
+      width: 9.08em;
+      height: 7.890000000000001em;
+  }
+
+
+
+
+  .ic.tab5:before {
+      background-position: 0em -110.2em;
+      width: 8.58em;
+      height: 8.84em;
+  }
+
+
+
+
+  .ic.tab6:before {
+      background-position: 0em -119.1em;
+      width: 7.67em;
+      height: 6.8em;
+  }
+
+
+
+
+  .ic.user_login:before {
+      background-position: 0em -125.9em;
+      width: 11.129999999999999em;
+      height: 11.18em;
+  }
+
+
+
+
+  .ic.view_1 green:before {
+      background-position: 0em -137.1em;
+      width: 3.7700000000000005em;
+      height: 3.6700000000000004em;
+  }
+
+
+
+
+  .ic.view_1 grey:before {
+      background-position: 0em -140.8em;
+      width: 3.7700000000000005em;
+      height: 3.6700000000000004em;
+  }
+
+
+
+
+  .ic.view_2 green:before {
+      background-position: 0em -144.5em;
+      width: 3.7700000000000005em;
+      height: 3.6700000000000004em;
+  }
+
+
+
+
+  .ic.view_2 grey:before {
+      background-position: 0em -148.2em;
+      width: 3.7700000000000005em;
+      height: 3.6700000000000004em;
+  }
+
+
+
+
+  .ic.wish:before {
+      background-position: 0em -151.9em;
+      width: 3.34em;
+      height: 3.35em;
+  }
+
+
+
+
+
