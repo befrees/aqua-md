@@ -56,6 +56,7 @@ a {
 .inline-block {
     display: inline-block;
 }
+
 .input {
     background: #FFFFFF;
     border: 1px solid #D0D0D0;
@@ -63,12 +64,14 @@ a {
     border-radius: 5px;
     height: 42px;
 }
+
 input[type=text],
 input[type=password],
 input[type=email],
 input[type=tel] {
     @extend .input;
 }
+
 // #wrapper {
 //  height: 100vh;
 //  overflow: hidden;
@@ -141,7 +144,19 @@ input[type=tel] {
 .btn-transparent {
     border: none;
     background: transparent;
+    outline: none;
 }
+
+.btn-times {
+    @extend .btn-transparent;
+    font-size: 16px;
+    color: #E3E9ED;
+    cursor: pointer;
+    &:hover {
+        color: $_red;
+    }
+}
+
 .btn-color {
     display: inline-block;
     width: 20px;
@@ -322,6 +337,7 @@ a.text-success {
 
 
 
+
 /**  Styler number ***/
 
 .jq-number {
@@ -458,11 +474,67 @@ a.text-success {
     border-top-color: #AAA;
 }
 
+.jq-number {
+    &.number-buttons {
+        padding: 0 40px;
+        border: none;
+        .jq-number__field {
+            width: auto;
+        }
+        .jq-number__spin {
+            position: absolute;
+            height: 37px;
+            width: 35px;
+            border-radius: 5px;
+            text-align: center;
+            outline: none;
+            background: #fff;
+            border: 1px solid #CFDAE1;
+            vertical-align: top;
+            padding: 8px 8px;
+            color:  #CFDAE1;
+            &:before {
+                font-family: 'icomoon' !important;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            &:after {
+                display: none;
+            }
+            &.minus {
+                left: 0;
+                top: 0;
+                &:before {
+                    content: "\e996";
+                }
+            }
+            &.plus {
+                right: 0;
+                top: 0;
+                &:before {
+                    content: "\e998";
+                }
+            }
+            &:hover {
+                color: #007CB1;
+            }
+        }
+    }
+}
+
+
 .triangle {
     border-top: 7px solid #333;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
+
 
 
 /** styler select **/
@@ -493,7 +565,6 @@ a.text-success {
         z-index: 99;
         height: 100%;
         padding-left: 11px;
-
     }
     .jq-selectbox__select-text {
         font-style: italic;
@@ -654,6 +725,7 @@ label {
     vertical-align: middle;
     font-weight: normal;
 }
+
 .label {
     font-size: 16px;
     font-weight: bold;
@@ -672,17 +744,22 @@ label {
     padding-top: 10px;
 }
 
-.bold {
+.bold, .text-bold {
     font-weight: bold;
+}
+.font-normal, .regular, .text-normal, .text-regular {
+    font-weight: normal !important;
 }
 .no-margin {
     margin-bottom: 0;
 }
+
 .price {
     font-size: 24px;
     color: $_red;
     font-weight: bold;
-    &.price-gray, .price-gray & {
+    &.price-gray,
+    .price-gray & {
         color: #bdbdbd;
     }
     &.price-black,
@@ -693,7 +770,7 @@ label {
         font-size: 16px;
         font-weight: normal;
     }
-    .big > & {
+    .big>& {
         font-size: 36px;
         .currency {
             font-size: 24px;

@@ -499,21 +499,21 @@ jQuery(function($) {
         // $('.level-1').removeClass('hover');
     });
 
-    try {
-        $('.modal').mmodal({
-            inDuration: 100,
-            outDuration: 100,
-            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-                // alert("Ready");
-                // console.log(modal, trigger);
-                $('.modal').not(modal).mmodal('close');
-            },
-        });
-    } catch (e) {}
+    // try {
+    //     $('.modal').mmodal({
+    //         inDuration: 100,
+    //         outDuration: 100,
+    //         ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+    //             // alert("Ready");
+    //             // console.log(modal, trigger);
+    //             $('.modal').not(modal).mmodal('close');
+    //         },
+    //     });
+    // } catch (e) {}
 
     $('body').on('click', '.close-modal', function(e) {
         e.preventDefault();
-        $('.modal').mmodal('close');
+        // $('.modal').mmodal('close');
         $('.modal').modal('hide');
     })
 
@@ -658,11 +658,19 @@ jQuery(function($) {
 
 // Product page 
 
-try{
-    $('.slider-cheaper').slick({
+var sliderCheaper = function sliderCheaper(el){
+    $(el).slick({
         prevArrow: '<button type="button" class="slick-prev"><i class="icon-ic-arrow-up"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="icon-ic-arrow-up"></i></button>'
     });
+    return sliderCheaper;
+}
+$('#modal-add-to-cart').on('shown.bs.modal', function(e){
+    $('#modal-add-to-cart .slider-cheaper').slick('destroy');
+    sliderCheaper($('#modal-add-to-cart .slider-cheaper'));
+});
+try{
+    sliderCheaper($('.slider-cheaper'));
 } catch (e){
     console.log(e);
 }

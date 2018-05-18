@@ -1,0 +1,152 @@
+.modal-dialog {
+	max-width: 100%;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	background: #fff;
+	&.modal-lg {
+		width: 1175px;
+	}
+	.modal-content {
+		border: none;
+		box-shadow: none;
+		background: transparent;
+	}
+	.modal-head {
+		// position: relative;
+		margin: 0 20px 0px;
+		padding: 24px 0;
+		border-bottom: 1px solid #E3E9ED;
+		.modal-title {
+			text-transform: uppercase;
+			font-weight: bold;
+			line-height: normal;
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+		.close-modal {
+			position: absolute;
+			top: 25px;
+			right: 25px;
+			cursor: pointer;
+			background: transparent;
+			border: none;
+			outline: none;
+			font-size: 16px;
+			color: #E3E9ED;
+			&:hover {
+				// color: #333;
+				color: $_red;
+			}
+		}
+	}
+}
+
+.modal-atc-form {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.cart-table {
+	display: table;
+	width: 100%;
+	.atc-goods-row, .tr {
+		display: table-row;
+		// border-bottom: 1px solid #E3E9ED;
+		.th {
+			display: table-cell;
+			color: #BDBDBD;
+			font-size: 16px;
+			padding: 15px;
+			white-space: nowrap;
+		}
+		> div {
+			display: table-cell;
+			border-bottom: 1px solid #E3E9ED;
+			padding: 25px 15px 15px;
+			vertical-align: top;
+			.name {
+				font-weight: 800;
+				line-height: normal;
+				font-size: 18px;
+				a {
+					color: inherit;
+				}
+			}
+		}
+		.img-col {
+			padding-left: 0;
+			figure {
+				height: 193px;
+				width: 193px;
+				background: #FCFCFC;
+				display: flex;
+				padding: 12px;
+				a {
+					margin: auto;
+				}
+				img {
+					max-width: 100%;
+					height: auto;
+					margin: auto;
+				}
+			}
+		}
+		.attributes-col {
+			.link {
+				margin-bottom: 15px;
+				a {
+					&.btn-default {
+						padding: 10px;
+					    line-height: 16px;
+					    width: 70px;
+					}
+					// height: 38px;
+				}
+			}
+			&.attributes-col-color {
+				.link {
+					margin-bottom: 6px;
+				}
+			}
+		}
+		.price-col {
+
+		}
+		.col-buttons {
+			padding-right: 5px;
+		}
+	}
+}
+.atc-res-row {
+	padding-bottom: 18px;
+	padding-top: 15px;
+	border-bottom: 1px solid #E3E9ED;
+	.lbl {
+		margin-right: 20px;
+		font-size: 18px;
+	}
+}
+.atc-action-row {
+	padding: 40px 0;
+	// border-bottom: 1px solid #E3E9ED;
+	.left {
+		margin-top: 7px;
+		.ic {
+			font-size: 36px;
+			margin-right: 6px;
+			vertical-align: middle;
+		}
+		.text {
+			vertical-align: -2px;
+			font-size: 16px;
+			font-weight: bold;
+		}
+	}
+	.right {
+		.close-modal {
+			color: $green_1;
+			font-weight: bold;
+			font-size: 16px;
+			margin-right: 25px;
+		}
+	}
+}

@@ -1,0 +1,242 @@
+.b-room-menu{
+	&__tit{
+		margin: 0;
+		padding: 25px 50px;
+		border-bottom: 1px solid $grey1;
+	}
+}
+
+.b-room-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	line-height: 20px;
+	li{
+		border-bottom: 1px solid $grey1;
+		a{
+			padding: 14px 26px;
+			display: block;
+			color: $grey2;
+			text-decoration: none;
+			.ic{
+				width: 49px;
+				margin: -2px 0 0 0;
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 24px;
+				color: $blue_1;
+				position: relative;
+				&.icon-ic-location{
+					font-size: 31px;
+				}
+			}
+			&:hover{
+				color: $green_1;
+				text-decoration: none;
+				.ic{
+					color: $green_1;
+				}
+			}
+		}
+		&.active{
+			a{
+				color: $green_1;
+				text-decoration: none;
+				.ic{
+					color: $green_1;
+				}
+			}
+		}
+	}
+}
+
+.b-room-tab-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	&.tabs{
+		margin: 0px;
+	}
+	li{
+		width: 33.33%;
+		float: left;
+		border-bottom: 1px solid $grey1;
+		position: relative;
+		a{
+			padding: 21px 0 25px;
+			display: block;
+			color: $grey3;
+			text-decoration: none;
+			position: relative;
+			&:before,
+			&:after{
+				display: block;
+				content: '';
+				position: absolute;
+				left: 0;
+			}
+			&:before{
+				width: 100%;
+				height: 5px;
+				bottom: -1px;
+			}
+			&:after{
+				width: 1px;
+				background: $grey1;
+				top: 7px;
+				bottom: 11px;
+			}
+			.ic{
+				margin: -3px 8px 0 0;
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 24px;
+				color: $grey3;
+				position: relative;
+			}
+			&:hover{
+				color: $green_1;
+				text-decoration: none;
+				.ic{
+					color: $green_1;
+				}
+			}
+		}
+		&:first-child{
+			a{
+				&:after{
+					display: none;
+				}
+			}
+		}
+		&.active{
+			a{
+				color: $green_1;
+				text-decoration: none;
+				&:before{
+					background: $green_1;
+				}
+				.ic{
+					color: $green_1;
+				}
+			}
+		}
+	}
+}
+
+.b-prof-info{
+	padding: 26px 50px 59px 72px;
+	&__item{
+		padding: 0 20% 47px 0;
+	}
+	.row{
+		margin-right: 0px;
+		> *{
+			padding-right: 20%;
+		}
+		h2{
+			margin-bottom: 25px;
+		}
+	}
+	.button-add{
+		margin-top: -17px;
+		position: relative;
+	}
+	.form-group{
+		margin-bottom: 24px;
+		&.flexbox{
+			padding-top: 7px;
+		}
+		&.no-lab{
+			padding-top: 27px;
+		}
+	}
+	.lb-input{
+		margin-right: 33px;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+	.b-lab{
+		margin-bottom: 10px;
+		display: block;
+		font-weight: 700;
+		line-height: 17px;
+		position: relative;
+	}
+	.jq-radio.checked {
+		.jq-radio__div{
+			background: $blue_3;
+		}
+	}
+	.form-control{
+		&.tel-code{
+			width: 54px;
+			margin-right: 16px;
+		}
+	}
+	.button{
+		margin-top: 13px;
+		padding-right: 20%;
+		text-align: right;
+		.btn{
+			margin-left: 18px;
+			&.btn-success{
+				width: 184px;
+			}
+		}
+	}
+	.btn-link{
+		font-weight: 700;
+		color: $green_1;
+		text-decoration: none;
+	}
+}
+
+.b-prof-share-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-top: 11px;
+	font-size: 14px;
+	line-height: 17px;
+	color: $grey3;
+	li{
+		padding: 5px 0 11px;
+	}
+	&__icon{
+		width: 40px;
+		margin-right: 16px;
+		.ic{
+			font-size: 41px;
+			&.icon-ic-fb{
+				color: $blue_2;
+			}
+			&.icon-ic-google{
+				color: $orange1;
+			}
+		}
+	}
+	&__txt{
+		width: 230px;
+		margin-right: 16px;
+	}
+	&__btn{
+		width: 16px;
+		button{
+			width: 16px;
+			height: 16px;
+			border: none;
+			background: none;
+		}
+		.ic{
+			font-size: 16px;
+			color: $grey1;
+		}
+	}
+}

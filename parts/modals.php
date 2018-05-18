@@ -241,39 +241,88 @@
         <div class="modal-content">
             <div class="modal-head">
                 <div class="modal-title">Ваша корзина</div>
-                <button class="close-modal close-modal-btn">
+                <button class="close-modal close-modal-btn btn-transparent">
                     <i class="ic icon-ic-times"></i>
                 </button>
             </div>
             <div class="modal-atc-form">
                 <form action="">
-                    <div class="atc-goods-row">
-                        <div class="img-col"><img src="img/item-main-2.png" width="200" alt=""></div>
-                        <div class="right-col">
-                            <div class="right-col-top flexbox">
-                                <div class="descr-col">
-                                    <div class="name bold">Ванна WINIFRED RESIN FREESTANDING TUB</div>
-                                    <div class="atc-price">1 578<span class="currency"> грн.</span></div>
+                    <div class="cart-table">
+                        <div class="thead tr">
+                            <div class="th"></div>
+                            <div class="th">Наименование:</div>
+                            <div class="th">Размер, см:</div>
+                            <div class="th">Установка</div>
+                            <div class="th">Цвет:</div>
+                            <div class="th">Цена:</div>
+                            <div class="th">Количество:</div>
+                            <div class="th">Итого:</div>
+                            <div class="th"></div>
+                        </div>
+                    <?php for($i=0; $i<2; $i++): ?>
+                    <div class="tr atc-goods-row">
+                        <div class="img-col">
+                            <figure><a href="#">
+                                <img src="img/i/i1.png" width="200" alt="">
+                            </a></figure>
+                        </div>
+                        <div class="descr-col">
+                            <div class="name bold"><a href="">Ванна WINIFRED RESIN FREESTANDING TUB</a></div>
+                            
+                        </div>
+                        <div class="attributes-col ">
+                            <div class="text-gray _th hide-pc">Размер, см.:</div>
+                            <div class="link"><a href="#" class="btn-default btn-sm btn active">250</a></div>
+                            <div class="link"><a href="#" class="btn-default btn-sm btn">200</a></div>
+                            <div class="link"><a href="#" class="btn-default btn-sm btn">180</a></div>
+                        </div>
+                        <div class="attributes-col">
+                            <div class="text-gray _th hide-pc">Установка:</div>
+                            <div class="link"><a href="#" class="btn-default btn-sm btn active">Слева</a></div>
+                            <div class="link"><a href="#" class="btn-default btn-sm btn">Справа</a></div>
+                        </div>
+                        <div class="attributes-col attributes-col-color">
+                            <div class="text-gray _th hide-pc">Цвет:</div>
+                            <div class="link"><a href="#" class="btn-color active" style="background-color: #F2F3F3">#F2F3F3</a></div>
+                            <div class="link"><a href="#" class="btn-color" style="background-color: #F6E5B6;">#F6E5B6</a></div>
+                            <div class="link"><a href="#" class="btn-color" style="background-color: #3F3E3A;">#3F3E3A</a></div>
+                        </div>
+                        <div class="price-col">
+                            <div class="price price-black text-nowrap font-normal">1 578<span class="currency"> грн.</span></div>
+                        </div>
+                        <div class="qty-col ">
+                            <input type="number" class="number-buttons number-field" name="" min="1" value="1">
+                        </div>
+                        <div class="price-col">
+                            <div class="price price-black text-nowrap bold">1 578<span class="currency"> грн.</span></div>
+                        </div>
+                        <div class="col-buttons">
+                            <button class="delete-btn btn-transparent btn-times">
+                                <i class="ic icon-ic-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <?php endfor ?>
+                    </div>
+                    <div class="bottom-atc text-right">
+                        <div class="atc-res-row text-danger">
+                            <span class="lbl text-uppercase">Итого к оплате:</span>
+                            <div class="prices price-big inline-block big">
+                                <div class="price">5870 <span class="currency">грн.</span>
+                                    
                                 </div>
-                                <div class="qty-col">
-                                    <div class="label">Количество:</div>
-                                    <input type="number" name="" min="1" value="1">
-                                </div>
-                                <div class="price-col">
-                                    <div class="label">Итого:</div>
-                                    <div class="price">1 578<span class="currency"> грн.</span></div>
-                                </div>
-                            </div>
-                            <div class="right-col-bottom">
-                                <div class="promo-box">
-                                    <div class="label">Промо код</div>
-                                    <input type="text" name="">
-                                </div>
-                                <a href="#" class="close-modal">Продолжить покупки</a>
-                                <button type="submit" class="btn btn-lg btn-checkout">Оформить заказ</button>
                             </div>
                         </div>
-                        <!-- .right-col -->
+                        <div class="atc-action-row cf">
+                            <div class="left alignleft">
+                                <i class="ic icon-ic-group-2 text-danger"></i>
+                                <span class="text"><span class="text-uppercase text-danger">СКИДКА 3% </span><span class="_text">при регистрации</span></span>
+                            </div>
+                            <div class="right alignright">
+                                <a href="#" class="close-modal">Продолжить покупки</a>
+                                <button type="submit" class="btn btn-lg btn-checkout btn-success">Оформить заказ</button>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>

@@ -111,6 +111,7 @@ $(function() {
     $('body').on('click', '.btn-goods-buy', function(e) {
         e.preventDefault();
         $('#modal-add-to-cart').modal('show');
+        
     });
 
     // Новый сптсок желаний 
