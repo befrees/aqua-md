@@ -676,4 +676,16 @@ try{
 }
 
 
+// $('.panel-collapse').on('show.bs.collapse', function () {
+//   // do something…
+//   console.log(this);
+// })
+// $('.panel-collapse').on('shown.bs.collapse', function () {
+//   // do something…
+//   console.log(this);
+//   $('.panel').removeClass('open');
+//   $(this).parent('.panel').addClass('open');
+// })
+
+
 })

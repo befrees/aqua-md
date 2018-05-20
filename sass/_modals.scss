@@ -1,3 +1,26 @@
+
+
+.close-modal-btn {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	color: #E3E9ED;
+	z-index: 2;
+	&:hover {
+		// color: #333;
+		color: $_red;
+	}
+}
+
+.modal-md {
+	width: 630px;
+	max-width: 100%;
+}
 .modal-dialog {
 	max-width: 100%;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -10,6 +33,7 @@
 		border: none;
 		box-shadow: none;
 		background: transparent;
+		padding-bottom: 25px;
 	}
 	.modal-head {
 		// position: relative;
@@ -24,22 +48,11 @@
 			text-transform: uppercase;
 		}
 		.close-modal {
-			position: absolute;
-			top: 25px;
-			right: 25px;
-			cursor: pointer;
-			background: transparent;
-			border: none;
-			outline: none;
-			font-size: 16px;
-			color: #E3E9ED;
-			&:hover {
-				// color: #333;
-				color: $_red;
-			}
+			@extend .close-modal-btn;
 		}
 	}
 }
+
 
 .modal-atc-form {
 	margin-left: 20px;
@@ -148,5 +161,78 @@
 			font-size: 16px;
 			margin-right: 25px;
 		}
+	}
+}
+.modal-order-phone {
+	.right-col {
+		padding-left: 165px;
+		padding-right: 55px;
+	}
+	._top {
+		padding-top: 20px;
+		font-size: 16px;
+		margin-bottom: 20px;
+		.icon {
+			// margin-right: 60px;
+			margin-left: -145px;
+			float: left;
+		}
+		.h4 , h4 {
+			font-size: 18px;
+			font-weight: bold;
+
+		}
+	}
+	.phone-order-form-box {
+		.form-row {
+			margin-bottom: 15px;
+			input {
+				height: 40px;
+				padding: 0 14px;
+			}
+			&.row-phone {
+				padding-left: 60px;
+				input {
+					&.input-phone-code {
+						width: 54px;
+						float: left;
+						margin-left: -60px;
+						text-align: center;
+						padding: 0;
+					}
+				}
+			}
+		}
+
+	}
+	.action-form-row {
+		// padding: 0 55px 0 20px;
+		.form-reset {
+			font-size: 16px;
+			font-weight: bold;
+			margin-right: 15px;
+		}
+		.btn {
+			width: 197px;
+		}
+	}
+}
+.modal-status {
+	// opacity: 1;
+	// display: block;
+	.modal-content {
+		padding: 30px 36px;
+		.text-status {
+			font-size: 16px;
+			.h4, h4, .h3, h3 {
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.icon-success {
+		font-size: 78px;
+		color: $green_1;
+		margin-right: 45px;
 	}
 }

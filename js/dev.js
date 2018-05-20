@@ -101,10 +101,18 @@ $(function() {
 
     // Обработчик формы заказа по телефону
 
+    $('body').on('click', '.btn-buy-phone', function(e){
+        e.preventDefault();
+        $('#modal-order-phone').modal('show');
+    });
+
     $('body').on('submit', '#phone-order-form', function(e) {
         e.preventDefault();
-        $('#modal-order-phone-status').mmodal('open');
+        $('#modal-order-phone').modal('hide');
+        $('#modal-order-phone-status').modal('show');
     })
+
+
 
     // Обработчик формы заказа товара	
 
@@ -176,6 +184,15 @@ $(function() {
         console.log(e);
     }
 
+    try{
+        $(".input-phone-number").inputmask({
+            mask: "(999) 999 99 99", 
+            greedy: false, 
+            placeholder:"(___) ___ __ __"
+        });
+    } catch(e){
+        
+    }
     try{
     	$("#promo-code").inputmask({mask: "999-999-999-999", greedy: false, placeholder:"   -   -   -   "});
     } catch(e){

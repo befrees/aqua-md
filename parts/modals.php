@@ -132,67 +132,59 @@
         </div>
     </div>
 </div>
-<div id="modal-order-phone" class="modal modal-bg modal-order-phone modal-form">
-    <div class="modal-phone-head modal-title">
-        <div class="h3">Оформить заказ по телефону</div>
-        <button class="close-modal close-modal-btn">
-            <svg class="ic close-bg">
-                <use xlink:href="img/icons.svg#close-modal-kr"></use>
-            </svg>
-        </button>
-    </div>
-    <div class="modal-content">
-        <div class="_top flexbox white-bg">
-            <div class="icon">
-                <svg class="ic callback">
-                    <use xlink:href="img/icons.svg#callback"></use>
-                </svg>
+<div id="modal-order-phone" class="modal fade modal-bg modal-order-phone modal-form">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-head">
+                <div class="modal-title">Оформить заказ по телефону</div>
+                <button class="close-modal close-modal-btn btn-transparent">
+                    <i class="ic icon-ic-times"></i>
+                </button>
             </div>
-            <div class="_txt">
-                <div class="h4 text-uppercase">оставьте свой номер</div>
-                <p>наш сотрудник свяжется с Вами в течении 24 часов и уточнит заказ</p>
+            <div class="_top right-col cf">
+                <div class="icon">
+                    <img src="img/svg/icon-call-operator.svg" alt="">
+                </div>
+                <div class="_txt">
+                    <div class="h4 text-uppercase text-success">оставьте свой номер</div>
+                    <p>Мы перезвоним Вам в ближайшее время и уточним все
+                        детали Вашего заказа.<br>
+                        Спасибо!</p>
+                </div>
             </div>
-        </div>
-        <div class="phone-order-form-box gray-bg">
-            <form action="" id="phone-order-form">
-                <div class="form-row flexbox cf row-phone">
-                    <input type="text" placeholder="+38" class="input-phone-code" value="+38">
-                    <input type="tel" class="input-phone-number">
-                </div>
-                <div class="form-row flexbox cf row-time">
-                    <label for="">Предпочитаемое время звонка:</label>
-                    <select name="" id="time-order" data-placeholder="">
-                        <option value="">Любое</option>
-                        <option value="">8-00 - 12-00</option>
-                        <option value="">12-00 - 14-00</option>
-                        <option value="">14-00 - 17-00</option>
-                        <option value="">17-00 - 20-00</option>
-                    </select>
-                </div>
-                <div class="form-row action-form-row text-right">
-                    <a href="#" class="form-reset" data-reset="#phone-order-form">Отмена</a>
-                    <button type="submit" class="btn">Оформить заказ</button>
-                </div>
-            </form>
+            <div class="phone-order-form-box right-col">
+                <form action="" id="phone-order-form">
+                    <div class="form-row flexbox cf row-name">
+                        <input type="texts" class="form-control">
+                    </div>
+                    <div class="form-row cf row-phone">
+                        <input type="text" placeholder="+38" class="input-phone-code" value="+38">
+                        <input type="tel" class="input-phone-number form-control" placeholder="(___) ___ __ __">
+                    </div>
+                    <div class="form-row action-form-row text-right">
+                        <a href="#" class="form-reset text-success close-modal" data-reset="#phone-order-form">Отмена</a>
+                        <button type="submit" class="btn btn-success">Оформить заказ</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
-<div id="modal-order-phone-status" class="modal modal-bg modal-status modal-order-phone-status">
-    <button class="close-modal close-modal-btn">
-        <svg class="ic close-bg">
-            <use xlink:href="img/icons.svg#close-modal-kr"></use>
-        </svg>
-    </button>
-    <div class="modal-content flexbox">
-        <div class="icon icon-success">
-            <svg class="ic confirmation_popup" width="47" height="47">
-                <use xlink:href="img/icons.svg#confirmation_popup"></use>
-            </svg>
-        </div>
-        <div class="text-status">
-            <h4 class="h4">Все получилось!</h4>
-            <p>Мы скоро перезвоним, а пока
-                <br>вы можете <a href="#" class="close-modal">продолжить покупки</a></p>
+<div id="modal-order-phone-status" class="modal fade modal-bg modal-status modal-order-phone-status">
+    <div class="modal-dialog modal-md" role="document">
+        <button class="close-modal close-modal-btn btn-transparent">
+                <i class="ic icon-ic-times"></i>
+            </button>
+        <div class="modal-content flexbox">
+            <div class="icon icon-success">
+                <i class="ic icon-ic-check-circle"></i>
+            </div>
+            <div class="text-status">
+                <h4 class="h4">Все получилось!</h4>
+                <p>Мы скоро перезвоним, а пока вы можете <br>
+                    <a href="#" class="close-modal text-default text-uppercase">продолжить покупки</a>
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -236,7 +228,7 @@
     </div>
 </div>
 <!--  -->
-<div class="modal modal-add-to-cart modal-atc" id="modal-add-to-cart">
+<div class="modal fade modal-add-to-cart modal-atc" id="modal-add-to-cart">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-head">

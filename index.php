@@ -14,9 +14,9 @@
 				<li><a href="all-categories.php">All categories</a></li>
 				<li><a href="category-1.php">Category 1</a></li>
 				<!-- <li><a href="catalog-1-2.php">Catalog 1 / 2</a></li> -->
-				<!-- <li><a href="catalog-1-3.php">Catalog 1 / 3</a></li> -->
 				<li><a href="catalog-grid.php">Catalog grid</a></li>
 				<li><a href="catalog-list.php">Catalog list</a></li>
+				<li><a href="catalog-firm.php">Catalog Firm</a></li>
 				<!-- <li><a href="search.php?s=Набор+смесителей">Результаты поиска</a></li> -->
 			</ol>
 		</li>
@@ -27,10 +27,6 @@
 				<li><a href="goods-one-access.php">Товар в наличии [ламинат]</a></li>
 				<li><a href="goods-one-dis-1.php">Товар нет в нличии</a></li>
 				<li><a href="goods-one-dis-2.php">Товар снят с производства</a></li>
-
-				<!-- 
-				<li><a href="goods-one-gift.php">Товар с подарком</a></li>
-				<li><a href="goods-one-discontinued.php">Товар снят с производства</a></li> -->
 			</ol>
 		</li>
 		<li><h4>Корзина</h4>
