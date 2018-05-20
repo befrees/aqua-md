@@ -26,9 +26,12 @@
                 </div>
                 <div class="row">
                     <div class="block-text-bottom toggle-text-block cf">
-                        <h2>AQUAKharkov - интернет магазин сантехники</h2>
                         <a href="#" class="open-text-link toggle-link"><i class="ic icon-ic-arrow-down"></i></a>
                         <a href="#" class="close-text-link toggle-link"><i class="ic icon-ic-arrow-up"></i></a>
+                        <div class="alignleft col-ttl-firm">
+                            <h2>Смесители KLUDI</h2>
+                            <img src="img/logo-kludi.png" alt="">
+                        </div>
                         <p><span>Является одним из самых успешных по всей Украине и за ее пределами, ведь только у нас можно найти такой богатый выбор все различных типов сантехники. Мы являемся официальными представителями многих фабрик и имеем  эксклюзивные права на продажу их товара, а также самые низкие цены в центральной и восточной Украине.</span></p>
                         <div class="hide-text-block">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nulla, perspiciatis minima obcaecati quo animi ipsam totam. Commodi voluptatem quos aut mollitia repellat quod, molestiae pariatur ad distinctio doloribus magni aliquam vitae quibusdam, fugiat! Suscipit eaque reiciendis possimus iure architecto. Voluptate non quos, voluptatum deserunt. Totam fuga ipsum delectus sint, soluta minima praesentium. Nam reiciendis dicta maxime esse alias. Veritatis distinctio assumenda velit consectetur voluptatibus deserunt autem fugit soluta eaque!
